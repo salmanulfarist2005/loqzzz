@@ -287,12 +287,23 @@
   
 }  
 
-@media only screen and (min-width: 313px) and (max-width: 553px) {
+@media only screen and (min-width: 355px) and (max-width: 377px) {
   .blog-details-wrapper .blog-details-img-date-wrap .blog-details-img img {
-    width: 523px !important;
-    height: 285px;
+    width: 338px !important;
+    height: 185px;
    
   }
 
 }  
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 355px) {
+  .blog-details-wrapper .blog-details-img-date-wrap .blog-details-img img {
+    width: 300px !important;
+    height: 185px;
+   
+  }
+
+} 
   
