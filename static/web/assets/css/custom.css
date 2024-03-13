@@ -1,0 +1,278 @@
+.Dealership-button{
+    height: 35px;
+    background-color: #ed1a3a;
+    border: 1px solid #ed1a3a ;
+    color: #ffffff;
+    margin-right: 50px;
+    width: 80%;
+    height: 7vh;
+    margin-top: 10px;
+  }
+  
+  @media  only screen and (max-width: 991px) {
+    .Dealership-button{
+      display:none;
+   }
+  }
+
+.select-form{
+   border: 1px solid #f2f2f2;
+    background-color: #f9f9f9;
+    height: 50px;
+    color: #8f8f8f;
+    font-weight: 300;
+    padding: 2px 20px;
+    margin: 0 0 30px;
+}
+
+
+@media  only screen and (max-width: 556px){
+  .main-wrapper{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .slider-btn a{
+    width: fit-content;
+  }
+
+  .home-single-product-content h2 {
+    font-size: 15px;
+  }
+
+  .home-single-product-content p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .single-product-cart > a{
+    width: 86px;
+    height: 28px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 9px;
+    font-size: 7px;
+  }
+
+
+
+.title-timer-wrap .section-title-1 h2{
+    font-size: 10px;
+  } 
+.section-title-2 h2{
+  font-size: 12px;
+}
+
+.banner-content-5 span:after{
+  display: none;
+}
+
+.banner-content-5 span:before{
+  display: none;
+}
+
+.pt-100{
+  padding-top: 6%;
+  padding-bottom: 0;
+}
+
+.product-area{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.product-slider-active-1.swiper-container{
+  padding: 75px 15px 0px;
+}
+
+.mb-35 {
+  margin-bottom: -85px;
+}
+
+.contact-admin {
+  padding-left: 55px;
+}
+
+.section-title-2.st-border-center h2::before{
+  left: -11px;
+}
+
+.product-details-content h2{
+  font-size: 20px;
+  line-height: 1px;
+  line-height: 21px;
+  
+}
+
+.product-details-content .product-details-review span{
+  font-size: 10px;
+}
+
+.breadcrumb-content{
+  position: relative;
+  top: 10px;
+}
+ 
+.blog-details-wrapper .blog-meta-2 ul li{
+  margin: 110px 5px 0 0;
+}
+.about-content h1 {
+  font-size: 15px;
+  margin: 10px 0 18px;
+  text-align: justify;
+}
+
+.about-content p {
+  font-size: 10px;
+  margin: 0 0 16px;
+  line-height: 15px;
+}
+
+
+.before-after {
+  height: 50vh !important;
+}
+
+.single-product-cart > a{
+  margin-bottom: 14px;
+}
+
+.pb-70 {
+  padding-top: -270px !important;
+}
+
+.testimonial-active .swiper-slide.swiper-slide-active .single-testimonial{
+  margin-top: 15px;
+}
+.pb-95 {
+  padding-bottom: 10px;
+}
+
+.blog-details-wrapper .blog-details-img-date-wrap .blog-details-img img{
+  width: 333px;
+    height: 150px;
+}
+
+.footer-about .footer-logo a img{
+  width: 25px;
+}
+
+.banner-content-5.banner-content-5-static {
+  display: none;
+}
+
+.bg-padding-2{
+  position: relative;
+  top: 60px;
+  bottom: 65px;
+}
+}
+
+
+
+
+.before-after {
+  position: relative;
+  overflow: hidden;
+  width: 100%; /* Adjust width as needed */
+  height: 70vh; /* Adjust height as needed */
+}
+
+.before,
+.after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out; /* Add transition */
+  padding-top: 70px;
+}
+
+.after {
+  transform: translateX(100%); /* Initially hide after image */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  opacity: 1; /* Make overlay visible initially */
+}
+
+.before-after:hover .after {
+  transform: translateX(0); /* Remove hover effect */
+}
+
+.before-after:hover .overlay {
+  opacity: 1; /* Keep overlay visible on hover */
+}
+
+
+.second-tittle{
+  font-size: 17px;
+}
+
+
+@media  only screen and (max-width: 300px){
+  .blog-details-wrapper .blog-details-img-date-wrap .blog-details-img img {
+   display: none;
+  }
+
+  .pt-100{
+    padding-top: 45px;
+  }
+
+  .footer-about .footer-logo a img{
+    width: 25px;
+ 
+  }
+
+  .contact-form-style .contact-us-btn button{
+    margin-right: 110px;
+  }
+  .contact-us-btn{
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+
+
+.twentytwenty-overlay,
+.twentytwenty-before-label,
+.twentytwenty-after-label {
+    pointer-events: none;
+   position: relative;
+   width: 100%;
+  }
+
+
+  .testmoial-div{
+    padding-top: 70px;
+  }
+
+  .update-area{
+    padding-top: 70px;
+    padding-bottom: 75px;
+  }
+
+
+  .contact-border{
+    /* border: 1px solid black;
+     border-radius: 10px; */
+     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+      -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+      -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    height: 200px;
+    text-align: center
+  }
