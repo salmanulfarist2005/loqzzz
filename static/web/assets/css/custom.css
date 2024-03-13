@@ -13,6 +13,8 @@
     .Dealership-button{
       display:none;
    }
+
+ 
   }
 
 .select-form{
@@ -149,7 +151,7 @@
 }
 
 .blog-details-wrapper .blog-details-img-date-wrap .blog-details-img img{
-  width: 333px;
+  width: 290px;
     height: 150px;
 }
 
@@ -276,3 +278,21 @@
     height: 200px;
     text-align: center
   }
+  @media only screen and (min-width: 768px) and (max-width: 999px) {
+    .blog-details-wrapper .blog-details-img-date-wrap .blog-details-img img {
+      width: 700px !important;
+      height: 285px;
+     
+    }
+  
+}  
+
+@media only screen and (min-width: 313px) and (max-width: 553px) {
+  .blog-details-wrapper .blog-details-img-date-wrap .blog-details-img img {
+    width: 523px !important;
+    height: 285px;
+   
+  }
+
+}  
+  
