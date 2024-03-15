@@ -14,6 +14,10 @@
       display:none;
    }
 
+   .easyzoom-pop-up{
+    display: none;
+   }
+
  
   }
 
@@ -43,16 +47,16 @@
   }
 
   .home-single-product-content p {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 14px;
   }
 
   .single-product-cart > a{
     width: 86px;
-    height: 28px;
+    height: 34px;
     margin-top: 10px;
     padding-left: 20px;
-    padding-top: 9px;
+    padding-top: 12px;
     font-size: 7px;
   }
 
@@ -62,7 +66,7 @@
     font-size: 10px;
   } 
 .section-title-2 h2{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .banner-content-5 span:after{
@@ -92,11 +96,11 @@
 }
 
 .contact-admin {
-  padding-left: 55px;
+  padding-left: 8px;
 }
 
 .section-title-2.st-border-center h2::before{
-  left: -11px;
+  left: -5px;
 }
 
 .product-details-content h2{
@@ -107,7 +111,7 @@
 }
 
 .product-details-content .product-details-review span{
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .breadcrumb-content{
@@ -125,9 +129,9 @@
 }
 
 .about-content p {
-  font-size: 10px;
+  font-size: 12px;
   margin: 0 0 16px;
-  line-height: 15px;
+  line-height: 14px;
 }
 
 
@@ -156,7 +160,7 @@
 }
 
 .footer-about .footer-logo a img{
-  width: 25px;
+  width: 10%;
 }
 
 .banner-content-5.banner-content-5-static {
@@ -168,6 +172,15 @@
   top: 60px;
   bottom: 65px;
 }
+
+.img-popup{
+  display: none;
+}
+
+.blog-details-wrapper > p {
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 16px;
 }
 
 
@@ -220,6 +233,18 @@
   font-size: 17px;
 }
 
+.contact-us-info-wrap .contact-us-info-title h3{
+  padding: 0;
+}
+
+.bg-padding-2 {
+  padding: -1px 0 -1px;
+  height: 184px;
+}
+
+
+
+}
 
 @media  only screen and (max-width: 300px){
   .blog-details-wrapper .blog-details-img-date-wrap .blog-details-img img {
@@ -242,6 +267,10 @@
     display: flex;
     justify-content: center;
   }
+
+  .bg-padding-2 {
+    display: none;
+   }
   
 }
 
@@ -293,6 +322,11 @@
     height: 185px;
    
   }
+  .bg-padding-2 {
+    padding: -1px 0 -1px;
+    height: 184px;
+  }
+
 
 }  
 
@@ -304,6 +338,11 @@
     height: 185px;
    
   }
+
+  .bg-padding-2 {
+   display: none;
+  }
+
 
 } 
   
